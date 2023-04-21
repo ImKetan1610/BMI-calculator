@@ -1,6 +1,6 @@
 import "./App.css";
 import BMIcalculator from "./components/BMIcalculator";
-import logo from "./images/logo.png";
+import logo from "./images/logo2.png";
 
 function App() {
   return (
