@@ -1,2 +1,0 @@
-const React from "react"
-

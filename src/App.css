@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -35,4 +36,111 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainContainer {
+  border: 1px solid #989898;
+  border-radius: 10px;
+  padding: 50px;
+  width: 20%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: beige;
+  text-align: left;
+}
+
+.title {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZLnEzk-jfw2x7jJ6ZZz0BEZ4NBmGt0r6xbg&usqp=CAU);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.showAlert {
+  fontsize: 10px;
+  color: #767676;
+}
+
+input {
+  width: 100%;
+}
+
+.mainContainer > div {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.hRule {
+  background-color: grey;
+  width: 80%;
+  height: 2px;
+  margin: auto;
+  border-radius: 1px;
+  margin-bottom: 20px;
+}
+
+.dummy {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  text-align: justify;
+}
+.dummy1 {
+  flex: 1;
+  color: white;
+}
+.dummy2 {
+  color: white;
+  flex: 1;
+}
+.dummy3 {
+  flex: 1;
+  color: white;
+}
+.logoDiv {
+  width: 50%;
+  margin: auto;
+}
+.logo {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.dummy1 > h3,
+.dummy2 > h3,
+.dummy3 > h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.btnDiv {
+  text-align: center;
+}
+label {
+  font-weight: bold;
+}
+.computeBtn {
+  width: 100px;
+  padding: 5px;
+  font-weight: bold;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #999999;
+  color: white;
+}
+
+.computeBtn:hover {
+  background-color: green;
+  color: greenyellow;
 }
