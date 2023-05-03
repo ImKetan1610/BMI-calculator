@@ -1,3 +1,6 @@
+![bmi](https://user-images.githubusercontent.com/96099100/235906171-dab1f2c6-baad-4867-af49-bc0c846a8393.JPG)
+
+
 # Live Website
 
 [Click Here](https://calculator-bodymassindex-react.netlify.app/)
